@@ -36,6 +36,13 @@ nav {
 .main-heading {
 	color: white;
 	font-weight: 200;
+	/* margin-top: 100px; */
+	padding-top: 300px;
+	display: flex;
+	justify-content: center;
+}
+.main-button {
+	margin-top: 100px;
 }
 .typewrite {
 	color: #007bff;
