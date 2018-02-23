@@ -28,7 +28,7 @@ nav {
 
 .heading {
 	height: 100%;
-	background-image: linear-gradient(to bottom, transparent 0%, #4d4d4d 100%), url('./assets/bg-header.jpg');
+	background-image: linear-gradient(to bottom, transparent 0%, #FFFF 100%), url('./assets/bg-header.jpg');
 	background-size: cover;
 	background-position: center center;
 }
