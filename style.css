@@ -37,7 +37,7 @@ nav {
 	color: white;
 	font-weight: 200;
 	/* margin-top: 100px; */
-	padding-top: 300px;
+	padding-top: 365px;
 	display: flex;
 	justify-content: center;
 }
@@ -47,6 +47,7 @@ nav {
 .typewrite {
 	color: #007bff;
 	display: inline;
+	font-size: 36px;
 	border: 1px solid white;
 	width: 160px;
 }
@@ -59,6 +60,12 @@ nav {
 	color: white;
   border-color: white;
   opacity: 0.7;
+}
+.tutor {
+	background-color: white;
+}
+.container {
+	background-color: white;
 }
 
 #aboutlikelion {
