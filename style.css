@@ -70,7 +70,7 @@ nav {
 
 #aboutlikelion {
 	background-color: #fff;
-	padding: 50px;
+	/* padding: 50px; */
 }
 #events {
 	background-color: #fff;
@@ -107,6 +107,9 @@ Card CSS
 a.card-link {
 	color: white;
 }
+.card {
+	margin-bottom: 30px !important;
+}
 
 @media (min-width: 319px) and (max-width: 374px) {
 	a.small-device-a {
@@ -114,6 +117,22 @@ a.card-link {
 	}
 	a.small-device-a:hover {
 		font-size: 11px;
+	}
+	.heading {
+		height: 100%;
+		background-image: linear-gradient(to bottom, transparent 0%, #fff 100%), url('./assets/bg-header02.jpg');
+		background-size: cover;
+		background-position: center center;
+	}
+	.card-img-top {
+			width: 78%;
+			border-top-left-radius: calc(.25rem - 1px);
+			border-top-right-radius: calc(.25rem - 1px);
+			margin-right: auto;
+			margin-left: auto;
+	}
+	.btn-font-size {
+		font-size: 12px !important;
 	}
 }
 @media (min-width: 375px) and (max-width:413px) {
@@ -123,12 +142,44 @@ a.card-link {
 	a.small-device-a:hover {
 		font-size: 15px;
 	}
+	.heading {
+		height: 100%;
+		background-image: linear-gradient(to bottom, transparent 0%, #fff 100%), url('./assets/bg-header02.jpg');
+		background-size: cover;
+		background-position: center center;
+	}
+	.card-img-top {
+			width: 78%;
+			border-top-left-radius: calc(.25rem - 1px);
+			border-top-right-radius: calc(.25rem - 1px);
+			margin-right: auto;
+			margin-left: auto;
+	}
+	.btn-font-size {
+		font-size: 14px !important;
+	}
 }
-@media (min-width: 414px) {
+@media (min-width: 414px) and (max-width: 416px) {
 	a.small-device-a {
 		font-size:16px;
 	}
 	a.small-device-a:hover {
 		font-size: 18px;
+	}
+	.heading {
+		height: 100%;
+		background-image: linear-gradient(to bottom, transparent 0%, #fff 100%), url('./assets/bg-header02.jpg');
+		background-size: cover;
+		background-position: center center;
+	}
+	.card-img-top {
+			width: 78%;
+			border-top-left-radius: calc(.25rem - 1px);
+			border-top-right-radius: calc(.25rem - 1px);
+			margin-right: auto;
+			margin-left: auto;
+	}
+	.btn-font-size {
+		font-size: 16px !important;
 	}
 }
